@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="ru">
 <head>
@@ -1030,14 +1031,13 @@
         }
       }
 
-      /* Border-sweep на карточках постоянно перерисовывает фон поверх backdrop-filter —
-         на мобилках это главный источник подлагиваний. Оставляем только на .frame. */
+
       .card{
         animation: none;
         background-position: 0 0, 50% 0;
       }
 
-      /* drop-shadow на SVG + анимации детей = гарантированный flicker на мобильном Chrome */
+
       .icon{
         filter: none;
       }
@@ -1100,8 +1100,7 @@
       .feature-name{ font-size: 14px; }
       .feature-desc{ font-size: 12px; }
 
-      /* На совсем маленьких экранах SVG-анимации иконок не видно,
-         но они продолжают крутиться и греть батарею. Вырубаем. */
+
       .icon-perf .needle,
       .icon-perf .tick,
       .icon-stab .bar,
@@ -1114,10 +1113,10 @@
 
       .icon-sec .check{ stroke-dashoffset: 0; opacity: 1; }
 
-      /* Шиммер логотипа тоже не даёт ничего кроме фоновой перерисовки */
+
       .logo-shimmer{ display: none; }
 
-      /* Дот у кнопок пульсирует — можно оставить, это дёшево */
+
     }
 
     @media (pointer: coarse){
@@ -1141,8 +1140,7 @@
         filter: drop-shadow(0 6px 14px rgba(0,0,0,.5));
       }
 
-      /* На тачах «hover» триггерится от тапа и разгоняет все SVG-анимации —
-         это ломает ритм и вызывает микро-лаги при скролле. Возвращаем базовые длительности. */
+
       .card:hover .icon-perf .needle{ animation-duration: 4.2s; }
       .card:hover .icon-stab .bar{ animation-duration: 2.8s; }
       .card:hover .icon-sec .check{ animation-duration: 4s; }
@@ -1895,9 +1893,9 @@
 
     if(ctx){
       resizeBg();
-      // На мелких экранах мерцание звёзд почти не видно, а RAF-цикл с drawImage
-      // во весь экран 20 раз в секунду — лишний расход батареи и причина микро-лагов.
-      // Рендерим статичный фон один раз и всё.
+
+
+
       if(!reduceMotion && !mqSmall.matches){
         requestAnimationFrame(draw);
       }else{
