@@ -1,8 +1,8 @@
 {
   "scriptEnabled": true,
-  "maintenance": true,
-  "kick": true,
-  "kickReason": "ПОШЕЛ НАХУЙ УЕБАН",
+  "maintenance": false,
+  "kick": false,
+  "kickReason": "",
   "reason": "",
   "latestVersion": "1.0.0",
   "minimumVersion": "1.0.0",
