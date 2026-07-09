@@ -1,10 +1,12 @@
 {
-  "scriptEnabled": false,
-  "kick": false,
-  "kickReason": "hui test",
+  "scriptEnabled": true,
   "maintenance": true,
-  "latestVersion": "1.0.0",
+  "kick": false,
+  "kickReason": "123",
+  "reason": "nsg",
+  "latestVersion": "1.0.1",
   "minimumVersion": "1.0.0",
   "updateRequired": false,
-  "message": "loaded"
+  "updateUrl": "https://t.me/pastereal",
+  "message": "x"
 }
