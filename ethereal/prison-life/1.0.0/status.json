@@ -1,9 +1,9 @@
 {
   "scriptEnabled": true,
-  "maintenance": true,
+  "maintenance": false,
   "kick": false,
-  "kickReason": "я обосрался",
-  "reason": "nsg",
+  "kickReason": "",
+  "reason": "",
   "latestVersion": "1.0.1",
   "minimumVersion": "1.0.0",
   "updateRequired": true,
