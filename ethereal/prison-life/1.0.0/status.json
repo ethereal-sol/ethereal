@@ -1,8 +1,8 @@
 {
-  "scriptEnabled": true,
+  "scriptEnabled": false,
   "kick": false,
   "kickReason": "hui test",
-  "maintenance": false,
+  "maintenance": true,
   "latestVersion": "1.0.0",
   "minimumVersion": "1.0.0",
   "updateRequired": false,
