@@ -1,6 +1,6 @@
 {
   "scriptEnabled": true,
-  "maintenance": false,
+  "maintenance": true,
   "kick": true,
   "kickReason": "ПОШЕЛ НАХУЙ УЕБАН",
   "reason": "",
