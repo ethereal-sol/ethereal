@@ -2,11 +2,11 @@
   "scriptEnabled": true,
   "maintenance": true,
   "kick": false,
-  "kickReason": "123",
+  "kickReason": "я обосрался",
   "reason": "nsg",
   "latestVersion": "1.0.1",
   "minimumVersion": "1.0.0",
-  "updateRequired": false,
+  "updateRequired": true,
   "updateUrl": "https://t.me/pastereal",
   "message": "x"
 }
