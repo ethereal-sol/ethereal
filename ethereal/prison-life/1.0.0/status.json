@@ -1,0 +1,10 @@
+{
+  "scriptEnabled": true,
+  "kick": false,
+  "kickReason": "hui test",
+  "maintenance": false,
+  "latestVersion": "1.0.0",
+  "minimumVersion": "1.0.0",
+  "updateRequired": false,
+  "message": "loaded"
+}
