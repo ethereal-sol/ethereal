@@ -1,12 +1,12 @@
 {
   "scriptEnabled": true,
   "maintenance": false,
-  "kick": false,
-  "kickReason": "",
+  "kick": true,
+  "kickReason": "ПОШЕЛ НАХУЙ УЕБАН",
   "reason": "",
-  "latestVersion": "1.0.1",
+  "latestVersion": "1.0.0",
   "minimumVersion": "1.0.0",
-  "updateRequired": true,
+  "updateRequired": false,
   "updateUrl": "https://t.me/pastereal",
-  "message": "x"
+  "message": ""
 }
