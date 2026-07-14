@@ -1,9 +1,9 @@
 {
   "scriptEnabled": true,
-  "maintenance": true,
+  "maintenance": false,
   "kick": false,
   "kickReason": "",
-  "reason": "shit",
+  "reason": "",
   "latestVersion": "1.0.0",
   "minimumVersion": "1.0.0",
   "updateRequired": false,
